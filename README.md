@@ -9,3 +9,6 @@ The primary objective of this study was to evaluate the performance of the PPO a
 * Analyze the implications of MFRL in Cybergenetics.
 * Identify potential areas for improvement in MFRL techniques.
 
+## Conclusion Highlights
+Through a comprehensive evaluation, the project compared the performance of the PPO agent against other controllers, including an untrained PPO agent, a PID controller, and a relay controller. While the PID and relay controllers exhibited better performance in terms of Integral of Squared Error (ISE), the trained PPO agent showcased notable improvement from its untrained state. This suggests that while MFRL shows promise, further refinement and exploration are essential before practical implementation in Cybergenetics.
+
