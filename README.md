@@ -1,2 +1,2 @@
 # Machine Learning Based Control of Living-Cells
-This GitHub repository showcases my technical project that I completed during my Master's in Engineering Mathematics in Univeristy of Bristol
+This GitHub repository showcases my technical project that I completed during my Master's in Engineering Mathematics in Univeristy of Bristol. This project focused on exploring the application of Proximal Policy Optimization (PPO) in the field of Cybergenetics control, more specifically the aim was to showcase the potential of Model-Free Reinforcement Learning (MFRL) techniques to control complex systems in the domain of Cybergenetics.
