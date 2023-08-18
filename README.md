@@ -23,15 +23,19 @@ The primary objective of this study was to evaluate the performance of the PPO a
 $$
 \frac{dmRNA_{TetR}}{dt}=k_{T}^{m0}+\frac{k_{T}^{m}}{1+(\frac{LacI}{\theta _{LacI}}\times \frac{1}{1+(\frac{IPTG}{\theta _{IPTG}})^{\eta _{IPTG}}})^{\eta _{LacI}}}-g_{T}^{m}\times mRNA_{TetR}
 $$
+
 $$
 \frac{dmRNA_{LacI}}{dt}=k_{L}^{m0}+\frac{k_{L}^{m}}{1+(\frac{TetR}{\theta _{TetR}}\times \frac{1}{1+(\frac{aTC}{\theta _{aTC}})^{\eta _{aTC}}})^{\eta _{TetR}}}-g_{L}^{m}\times mRNA_{LacI}
 $$
+
 $$
 \frac{d\mathit{LacI}}{dt} = k_{L}^{P}\times mRNA_{LacI} - g_{L}^{P}\times LacI
 $$
+
 $$
 \frac{d\mathit{TetR}}{dt} = k_{T}^{P}\times mRNA_{TetR} - g_{T}^{P}\times TetR
 $$
+
 ## Conclusion Highlights
 Through a comprehensive evaluation, the project compared the performance of the PPO agent against other controllers, including an untrained PPO agent, a PID controller, and a relay controller. While the PID and relay controllers exhibited better performance in terms of Integral of Squared Error (ISE), the trained PPO agent showcased notable improvement from its untrained state. This suggests that while MFRL shows promise, further refinement and exploration are essential before practical implementation in Cybergenetics.
 
