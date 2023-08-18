@@ -20,6 +20,7 @@ The primary objective of this study was to evaluate the performance of the PPO a
 
 ## Genetic Toggle Switch
 (GTS) is a bi-stable GRN and is widely employed in complicated synthetic circuitry when bi-stability, memory, or binary signal processing is desired, as it is a fundamental topology in core natural gene regulation networks and one of the foundational results of synthetic biology. Therefore, the GTS was chosen as the subject of the control tests conducted in this project. 
+
 $$
 \frac{dmRNA_{TetR}}{dt}=k_{T}^{m0}+\frac{k_{T}^{m}}{1+(\frac{LacI}{\theta _{LacI}}\times \frac{1}{1+(\frac{IPTG}{\theta _{IPTG}})^{\eta _{IPTG}}})^{\eta _{LacI}}}-g_{T}^{m}\times mRNA_{TetR}
 $$
